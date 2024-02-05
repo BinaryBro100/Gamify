@@ -1,0 +1,43 @@
+@font-face {
+    font-family: doodle;
+    src: url(./BakedSnails.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url(./resources/icons/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3rem;
+    width: 100%;
+    padding: 0px 200px;
+    color: white;
+}
+
+.title span{
+    font-family: doodle;
+    font-size: 70px;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}

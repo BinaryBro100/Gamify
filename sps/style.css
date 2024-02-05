@@ -1,0 +1,121 @@
+@font-face {
+    font-family: doodle;
+    src: url(./font/doodle.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.title-score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title h1{
+    font-family: doodle;
+    font-size: 80px;
+    transition: 0.3s ease;
+}
+
+.title h1:hover{
+    cursor: pointer;
+}
+
+.title h1:active{
+    transform: scale(0.8);
+}
+
+.title h1 #PN{
+    color: rgb(195, 195, 15);
+    font-family: doodle;
+}
+
+.title h1 #RN{
+    color: rgb(138, 25, 25);
+    font-family: doodle;
+}
+
+.title h1 #SN{
+    color: rgb(34, 123, 123);
+    font-family: doodle;
+}
+
+.score .player{
+    color: rgb(101, 101, 219);
+    font-size: 40px;
+}
+
+.score .comp{
+    color: rgb(255, 112, 112);
+    font-size: 40px;
+}
+
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.selection div{
+    margin-top: 15vh;
+}
+
+.selection div img {
+    width: 15vw;
+    border-radius: 50%;
+    transition: 0.1s ease;
+}
+
+.selection div img:hover{
+    cursor: pointer;
+}
+
+.selection div img:active {
+    transform: scale(0.8);
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 15px;
+}
+
+.icon div{
+    width: 7rem;
+    height: 7rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon div img{
+    width: 5rem;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    background-color: black;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 80px;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamify | Tic || Tac || Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./resources/icons/playing-videogame(1).png" type="image/x-icon">
+</head>
+<body>
+    <button class="btn">Reset</button>
+    <div class="title">
+        <h1>Tic Tac Toe</h1>
+        <div class="powwered" style="display: flex; justify-content: center; align-items: center;">
+            <span>powered by #Gamify</span>
+            <img src="./resources/icons/playing-videogame(1).png" width="25px">
+        </div>
+    </div>
+    <div class="game">
+        <button class="sign" id="sign1"></button>
+        <button class="sign"></button>
+        <button class="sign" id="sign2"></button>
+        <button class="sign"></button>
+        <button class="sign"></button>
+        <button class="sign"></button>
+        <button class="sign" id="sign3"></button>
+        <button class="sign"></button>
+        <button class="sign" id="sign4"></button>
+    </div>
+    <div class="score_reset">
+        <div class="score">
+            <div class="player_two">
+                <img src="./resources/icons/girl(1).png" width="30px" alt="">
+                <span class="player_1_sign">(X)</span>
+                <span class="sc" id="sc_1">0</span>
+            </div>
+            <div class="player_one">
+                <img src="./resources/icons/student.png" width="30px" alt="">
+                <span class="player_2_sign">(O)</span>
+                <span class="sc" id="sc_2">0</span>
+            </div>
+        </div>
+        <div class="result">
+            <button class="rslt">Idle</button>
+            <img src="./resources/icons/sleeping.png" width="40px" id="rslt_img">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

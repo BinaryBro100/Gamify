@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone || Paper || Scissor (Game)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="parent">
+      <div class="title-score">
+        <div class="title">
+            <h1>
+              <span id="RN">Rock</span>
+              <span id="PN">Paper</span>
+              <span id="SN">Scissor</span>
+            </h1>
+        </div>
+        <div class="score">
+            <span class="player">0</span>
+            <span class="comp">0</span>
+        </div>
+      </div>
+
+      <div class="selection">
+        <div class="Rock">
+          <img src="./icons/rockBg.png" class="user_choice" id="R">
+        </div>
+        <div class="Paper">
+          <img src="./icons/paperBg.png" class="user_choice" id="P">
+        </div>
+        <div class="Scissor">
+          <img src="./icons/scissorBg.png" class="user_choice" id="S">
+        </div>
+      </div>
+
+      <div class="icon">
+        <div>
+            <img id="player" class="IC" src="./icons/R.png">
+        </div>
+        <div>
+            <img id="comp" class="IC" src="./icons/P.png">
+        </div>
+      </div>
+
+      <div class="result">
+        <button id="btn">Go for it...!</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

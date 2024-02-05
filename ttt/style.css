@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sign{
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: white;
+    box-shadow: 5px 5px 5rem rgba(0, 0, 0, 0.2);
+    font-size: 50px;
+    font-family: sans-serif;
+    transition: 0.2s ease;
+}
+
+.sign:hover{
+    background: linear-gradient(50deg, rgba(179, 0, 255, 0.5), rgba(225, 0, 214, 0.5), rgba(255, 0, 55, 0.5)), rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.sign:active{
+    transform: scale(0.9);
+    background: linear-gradient(50deg, rgba(179, 0, 255, 0.5), rgba(225, 0, 214, 0.5), rgba(255, 0, 55, 0.5)), rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.game{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.title span{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.score_reset{
+    text-align: center;
+}
+
+.rslt{
+    width: 150px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(146, 146, 146);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    transition: 0.2s;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+#sign1{
+    border-top-left-radius: 20px;
+}
+
+#sign2{
+    border-top-right-radius: 20px;
+}
+
+#sign3{
+    border-bottom-left-radius: 20px;
+}
+
+#sign4{
+    border-bottom-right-radius: 20px;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+.score_reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score div{
+    margin: 10px;
+}
+
+.player_sign{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
