@@ -12,17 +12,21 @@
         <div class="title">
             <span>SNAKER</span>
         </div>
-        <div class="score">
-            <img src="./resources/icons/student.png" alt="" width="50px">
-            <span id="score">0</span>
+    </div>
+    <div class="score">
+        <div class="scr">
+            <img src="./resources/icons/star.png" alt="" width="20px">
+            <span class="score_">0</span>
+        </div>
+        <div class="hscr">
+            <img src="./resources/icons/trophy.png" alt="" width="20px">
+            <span id="best_score">0</span>
         </div>
     </div>
-    <canvas id="board"></canvas>
+    <canvas id="board" height="500", width="500"></canvas>
+    <div class="reset">
+        <button class="reset_btn">Reset</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
-<!-- 
-//the head should be placed facing right side
-//the head's direction shoudl move according to the key movement 
-//the head's backgrond alignment should also change according to the key movement 
-//the snake should have atleast 3 body parts excluding tail and head meaning total five parts in total -->
